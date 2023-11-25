@@ -1,13 +1,11 @@
 import { Text, View, Image, TouchableOpacity } from 'react-native';
-import searchbar from './assets/images/searchbar.png';
-import chat from './assets/images/onboard_2.png';
-import Group from './assets/images/Group.png';
+import robo from '../assets/images/robo.png';
+import Group from '../assets/images/Group.png';
 export default function App() {
   return (
     <View
       style={{
         flex: 1,
-
         backgroundColor: '#FFFFFF',
       }}
     >
@@ -20,31 +18,22 @@ export default function App() {
           marginTop: '25%',
         }}
       >
-        <Image source={searchbar} style={{}} />
+        <Image source={robo} style={{ width: 300, height: 270 }} />
       </View>
-
       <View style={{ marginTop: '5%' }}>
-        <Text
-          style={{
-            textAlign: 'center',
-            fontWeight: 'bold',
-            fontSize: 24,
-            color: '#0C2A23',
-          }}
-        >
-          One bar with
+        <Text style={{ textAlign: 'center', fontWeight: 'bold', fontSize: 20 }}>
+          Steve AI
         </Text>
       </View>
       <View>
-        <Text style={{ textAlign: 'center', fontWeight: 'bold', fontSize: 24 }}>
-          Endless Possibilities
+        <Text style={{ textAlign: 'center', fontWeight: 'bold', fontSize: 20 }}>
+          Chat GPT Assistant
         </Text>
       </View>
-      <View></View>
       <View style={{ marginTop: '7%', width: '95%', marginLeft: '2.5%' }}>
         <Text style={{ textAlign: 'center', fontSize: 17, color: '#818791' }}>
-          Simple and blazingly fast: he will transform how you search and find
-          information in your everyday life.
+          Steve is an AI-powered search and content creation app that gives you
+          ads-free, instant and accurate results
         </Text>
       </View>
       <View
